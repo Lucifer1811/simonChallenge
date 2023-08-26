@@ -1,3 +1,8 @@
+let text = "Welcome to the game of Memory! \n\n  1. The game starts with a sequence of lights and sounds.\n  2. Remember and repeat the sequence by pressing corresponding buttons.\n"+ 
+            "   3. Correct replication leads to longer sequences.\n    4. Mistakes end the game; score is based on completed rounds.\n"+
+            "   5. Colors correspond to sounds for memory aid.\n   6. Speed and accuracy are crucial.\n   7. Aim to beat your high score."
+alert(text)
+
 const buttonColours = ["red", "blue","green","yellow"];
 
 var gamePattern = [];
